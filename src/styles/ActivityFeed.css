@@ -1,0 +1,21 @@
+.activity-feed {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  }
+  
+  .activity-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 100px;
+    margin-top: 1rem;
+  }
+  
+  .bar {
+    width: 14%;
+    background: #4a90e2;
+    border-radius: 4px 4px 0 0;
+  }
+  

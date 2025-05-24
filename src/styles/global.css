@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f9ff;
+    color: #2a2a2a;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .header {
+      flex-direction: column;
+    }
+  }
+  
